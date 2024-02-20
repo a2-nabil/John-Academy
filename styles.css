@@ -12,6 +12,9 @@
   max-width: 270px;
   background: #fff;
   padding: 10px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 15px 0px rgba(151, 151, 151, 0.2);
 }
 .a2n-course_card .a2n-course__img img {
   border-radius: 5px;
@@ -70,5 +73,44 @@
   font-size: 15px;
   font-weight: 400;
 }
+.a2n-course_card .a2n-course__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.a2n-course_card .a2n-course__footer .a2n-view_btn {
+  display: block;
+  color: #2b354e;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 11px 16px;
+  border-radius: 5px;
+  border: 1px solid #2b354e;
+  transition: all 0.3s ease;
+}
+.a2n-course_card .a2n-course__footer .a2n-view_btn:hover {
+  color: #fff;
+  background: #2b354e;
+  border: 1px solid transparent;
+}
+.a2n-course_card .a2n-course__footer .a2n-cart_btn {
+  display: block;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 11px 16px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  background: #fe7439;
+  transition: all 0.3s ease;
+}
+.a2n-course_card .a2n-course__footer .a2n-cart_btn:hover {
+  color: #fe7439;
+  background: transparent;
+  border: 1px solid #fe7439;
+}
 
+/* #Top trending course card end  */
 /* #Top trending course card end  *//*# sourceMappingURL=styles.css.map */
